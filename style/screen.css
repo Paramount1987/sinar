@@ -438,7 +438,7 @@ input[type="checkbox"]:checked + i { background-position: 0 -30px; }
 
 .summary-calculate { font-size: 44px; }
 
-#header { position: relative; padding-bottom: 70px; overflow: hidden; background: #773f18 url("../i/header-bg.jpg") no-repeat center; background-size: cover; color: #fff; text-align: center; }
+#header { position: relative; padding-bottom: 70px; overflow: hidden; background: #773f18 url("../i/header-bg.jpg") no-repeat center; background-attachment: fixed; background-size: cover; color: #fff; text-align: center; }
 #header:before { content: ""; position: absolute; top: -210px; left: 50%; margin-left: -960px; width: 1920px; height: 360px; opacity: 0.5; filter: alpha(opacity=50); border-radius: 1299px/183px; background-color: #5b2503; }
 #header:after { content: ""; position: absolute; z-index: 1; display: block; bottom: 45px; left: 0; width: 100%; height: 260px; opacity: 0.7; filter: alpha(opacity=70); background-color: #5b2503; }
 
